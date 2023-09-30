@@ -6,8 +6,8 @@ build-mindetach-module = true
 # see https://github.com/MatadorProBr/revanced-extended-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-integrations"
+#patches-source = "YT-Advanced/ReX-patches"
+#integrations-source = "YT-Advanced/ReX-integrations"
 build-mode = "both"                                                                            # 'both', 'apk' or 'module'
 included-patches = "force-premium-heading"
 excluded-patches = "bypass-ambient-mode-restrictions change-homepage custom-branding-youtube-name custom-branding-icon-revancify-blue enable-new-splash-animation enable-new-thumbnail-preview enable-wide-search-bar hide-account-menu hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-description-components hide-handle hide-info-cards hide-latest-videos-button hide-mix-playlists hide-music-button hide-previous-next-button hide-seekbar hide-speed-overlay hide-time-stamp hide-trending-searches"                                        # space-seperated patches to include (non-excluded patches are included by default)
