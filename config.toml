@@ -6,7 +6,6 @@ build-mindetach-module = true
 # see https://github.com/MatadorProBr/revanced-extended-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-enabled = false
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 build-mode = "both"                                                                            # 'both', 'apk' or 'module'
