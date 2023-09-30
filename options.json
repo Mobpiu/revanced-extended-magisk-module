@@ -11,7 +11,7 @@
   "patchName" : "Custom branding YouTube name",
   "options" : [ {
     "key" : "YouTubeAppName",
-    "value" : "ReVanced Extended"
+    "value" : "YouTube"
   } ]
 }, {
   "patchName" : "Custom double tap length",
@@ -23,10 +23,10 @@
   "patchName" : "Custom package name",
   "options" : [ {
     "key" : "YouTubePackageName",
-    "value" : "app.rvx.android.youtube"
+    "value" : "com.sakizu.android.youtube"
   }, {
     "key" : "MusicPackageName",
-    "value" : "app.rvx.android.apps.youtube.music"
+    "value" : "com.sakizu.android.youtube.music"
   } ]
 }, {
   "patchName" : "Theme",
