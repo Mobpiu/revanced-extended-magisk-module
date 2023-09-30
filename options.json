@@ -1,1 +1,37 @@
-[]
+[ {
+  "patchName" : "Custom branding Music name",
+  "options" : [ {
+    "key" : "MusicLongName",
+    "value" : "YT Music"
+  }, {
+    "key" : "MusicShortName",
+    "value" : "YT Music"
+  } ]
+}, {
+  "patchName" : "Custom branding YouTube name",
+  "options" : [ {
+    "key" : "YouTubeAppName",
+    "value" : "YouTube"
+  } ]
+}, {
+  "patchName" : "Custom double tap length",
+  "options" : [ {
+    "key" : "DoubleTapLengthArrays",
+    "value" : "3, 5, 10, 15, 20, 30, 60, 120, 180"
+  } ]
+}, {
+  "patchName" : "Custom package name",
+  "options" : [ {
+    "key" : "YouTubePackageName",
+    "value" : "com.sakizu.android.youtube"
+  }, {
+    "key" : "MusicPackageName",
+    "value" : "com.sakizu.android.youtube.music"
+  } ]
+}, {
+  "patchName" : "Theme",
+  "options" : [ {
+    "key" : "darkThemeBackgroundColor",
+    "value" : "@android:color/black"
+  } ]
+} ]
