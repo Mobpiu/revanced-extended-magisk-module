@@ -9,16 +9,14 @@ build-mindetach-module = false
 #included-patches = "force-premium-heading"
 #excluded-patches = "bypass-ambient-mode-restrictions change-homepage custom-branding-youtube-name custom-branding-icon-revancify-blue enable-new-splash-animation enable-new-thumbnail-preview enable-wide-search-bar hide-account-menu hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-description-components hide-handle hide-info-cards hide-latest-videos-button hide-mix-playlists hide-music-button hide-previous-next-button hide-seekbar hide-speed-overlay hide-time-stamp hide-trending-searches"                                        # space-seperated patches to include (non-excluded patches are included by default)
 #excluded-patches = "alternative-thumbnails always-autorepeat comments custom-player-overlay-opacity disable-player-popup-panels enable-debugging hdr-auto-brightness hide-autoplay-button hide-captions-button hide-email-address hide-filter-bar hide-layout-components hide-load-more-button hide-seekbar hide-timestamp player-flyout-menu"
-patches-source = "revanced/revanced-patches"
-integrations-source = "revanced/revanced-integrations"
-patches-version = "v2.191.0-dev.12"
-integrations-version = "v0.118.0-dev.18"
-rv-brand = "ReVanced Extended"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "inotia00 ReVanced"
+included-patches = "force-premium-heading"
+excluded-patches = "alternative-thumbnails change-homepage custom-branding-icon-revancify-blue enable-new-splash-animation enable-wide-search-bar hide-account-menu hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-comment-component hide-feed-flyout-panel hide-fullscreen-panels hide-handle hide-latest-videos-button hide-layout-components hide-load-more-button hide-mix-playlists hide-music-button hide-player-flyout-panel hide-previous-next-button hide-quick-actions hide-seekbar hide-shorts-components hide-time-stamp hide-trending-searches"
 build-mode = "apk"
 version = "auto"
-excluded-patches = "theme"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-
 
 
 [Music]
