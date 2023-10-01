@@ -10,7 +10,6 @@ rv-brand = "inotia00 ReVanced"
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-included-patches = ""
 excluded-patches = "alternative-thumbnails append-time-stamps-information change-homepage custom-branding-icon-revancify-blue enable-new-splash-animation enable-new-thumbnail-preview enable-wide-search-bar hide-account-menu hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-comment-component hide-description-components hide-feed-flyout-panel hide-filmstrip-overlay hide-handle hide-latest-videos-button hide-layout-components hide-load-more-button hide-mix-playlists hide-player-flyout-panel hide-previous-next-button hide-seekbar hide-speed-overlay hide-time-stamp hide-trending-searches translations"
 build-mode = "apk"
 
