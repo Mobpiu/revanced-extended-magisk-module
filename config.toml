@@ -1,33 +1,21 @@
 logging-to-file = false        # enables logging of every patch process to a seperate file
 enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
 build-mindetach-module = false
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "inotia00 ReVanced"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/MatadorProBr/revanced-extended-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-#included-patches = "force-premium-heading"
-#excluded-patches = "bypass-ambient-mode-restrictions change-homepage custom-branding-youtube-name custom-branding-icon-revancify-blue enable-new-splash-animation enable-new-thumbnail-preview enable-wide-search-bar hide-account-menu hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-description-components hide-handle hide-info-cards hide-latest-videos-button hide-mix-playlists hide-music-button hide-previous-next-button hide-seekbar hide-speed-overlay hide-time-stamp hide-trending-searches"                                        # space-seperated patches to include (non-excluded patches are included by default)
-#excluded-patches = "alternative-thumbnails always-autorepeat comments custom-player-overlay-opacity disable-player-popup-panels enable-debugging hdr-auto-brightness hide-autoplay-button hide-captions-button hide-email-address hide-filter-bar hide-layout-components hide-load-more-button hide-seekbar hide-timestamp player-flyout-menu"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-rv-brand = "inotia00 ReVanced"
-included-patches = "force-premium-heading"
-#excluded-patches = "alternative-thumbnails change-homepage custom-branding-icon-revancify-blue enable-new-splash-animation enable-wide-search-bar hide-account-menu hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-comment-component hide-feed-flyout-panel hide-fullscreen-panels hide-handle hide-latest-videos-button hide-layout-components hide-load-more-button hide-mix-playlists hide-music-button hide-player-flyout-panel hide-previous-next-button hide-quick-actions hide-seekbar hide-shorts-components hide-time-stamp hide-trending-searches"
-excluded-patches = "alternative-thumbnails append-time-stamps-information change-homepage custom-branding-icon-revancify-blue custom-package-name enable-new-splash-animation enable-wide-search-bar hide-account-menu hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-comment-component hide-description-components hide-feed-flyout-panel hide-fullscreen-panels hide-handle hide-latest-videos-button hide-layout-components hide-load-more-button hide-mix-playlists hide-player-flyout-panel hide-previous-next-button hide-quick-actions hide-seekbar hide-time-stamp hide-trending-searches translations"
+included-patches = "hide-double-tap-overlay-filter"
+excluded-patches = "alternative-thumbnails append-time-stamps-information change-homepage custom-branding-icon-revancify-blue enable-new-splash-animation enable-new-thumbnail-preview enable-wide-search-bar hide-account-menu hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-comment-component hide-description-components hide-feed-flyout-panel hide-filmstrip-overlay hide-handle hide-latest-videos-button hide-layout-components hide-load-more-button hide-mix-playlists hide-player-flyout-panel hide-previous-next-button hide-seekbar hide-speed-overlay hide-time-stamp hide-trending-searches translations"
 build-mode = "apk"
-version = "auto"
-
 
 [Music]
-enabled = false
-build-mode = "both"
-excluded-patches = "custom-branding-music-name custom-branding-icon-revancify-blue"
-included-patches = ""
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "arm64-v8a"                                                                        # both arm64-v8a and arm-v7a
-
-[Reddit]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+excluded-patches = "custom-branding-icon-revancify-blue hide-account-menu hide-flyout-panel hide-handle hide-navigation-bar-component remember-shuffle-state translations"
+apkmirror-arch = "arm64-v8a"
+build-mode = "apk"
