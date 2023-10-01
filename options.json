@@ -23,10 +23,10 @@
   "patchName" : "Custom package name",
   "options" : [ {
     "key" : "YouTubePackageName",
-    "value" : "id.sakizu.android.youtube"
+    "value" : "com.sakizu.youtube"
   }, {
     "key" : "MusicPackageName",
-    "value" : "id.sakizu.android.apps.youtube.music"
+    "value" : "com.sakizu.youtube.music"
   } ]
 }, {
   "patchName" : "Theme",
