@@ -1,5 +1,5 @@
-YouTube: 18.41.34  
-Music: 6.23.54  
+YouTube: 18.42.36  
+Music: 6.23.55  
 
 
 Install [mMicroG](https://github.com/inotia00/mMicroG/releases) (recommended), [Vanced Extended MicroG](https://github.com/inotia00/VancedMicroG/releases) or [Vanced MicroG](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or YT Music  
@@ -25,13 +25,13 @@ YouTube
 - feat(YouTube/Hide general ads): update adblock filter
 - feat(YouTube/Hide layout components): add `Hide start trial button` settings
 - feat(YouTube/Hide navigation buttons): `Open library on app startup` now also works in the `You` tab (`Open library on app startup` → `Open library(You) on app startup`)
-- feat(YouTube/Hide quick actions): add `Hide open mix playlist button`, `Hide open playlist button` settings
+- feat(YouTube/Hide quick actions): add `Hide open mix playlist button`, `Hide open playlist button` settings https://github.com/inotia00/ReVanced_Extended/issues/1591
 - feat(YouTube/Spoof app version): add target version 18.33.40 - Restore old shorts action bar
 - fix(YouTube/Custom speed overlay): change setting description https://github.com/inotia00/ReVanced_Extended/issues/1575
 - fix(YouTube/Default playback speed): change default value
 - fix(YouTube/Default video quality): video quality toast shows wrong quality value https://github.com/inotia00/ReVanced_Extended/issues/1589
 - fix(YouTube/Disable haptic feedback): separate the `Disable seek undo haptic feedback` setting from the `Disable seek haptic feedback` setting https://github.com/inotia00/ReVanced_Extended/issues/1566
-- fix(YouTube/Enable old quality layout): sometimes doesn't work on tablets https://github.com/inotia00/ReVanced_Extended/issues/1507
+- fix(YouTube/Enable old quality layout): sometimes patch not working on tablets https://github.com/inotia00/ReVanced_Extended/issues/1507
 - fix(YouTube/Enable wide search bar): wide search bar does not apply to You tab https://github.com/inotia00/ReVanced_Extended/issues/1572
 - fix(YouTube/Force video codec): no longer spoofing device dimensions https://github.com/inotia00/ReVanced_Extended/issues/1582
 - fix(YouTube/Hide button container): change settings name `Hide playlist button` → `Hide save to playlist button`
