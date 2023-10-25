@@ -11,10 +11,10 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 rv-brand = "inotia00 ReVanced"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-#excluded-patches = "alternative-thumbnails append-time-stamps-information change-homepage custom-branding-icon-revancify-blue enable-new-splash-animation enable-new-thumbnail-preview enable-wide-search-bar hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-comment-component hide-description-components hide-feed-flyout-panel hide-filmstrip-overlay hide-handle hide-latest-videos-button hide-load-more-button hide-mix-playlists hide-player-flyout-panel hide-previous-next-button hide-seekbar hide-speed-overlay hide-time-stamp hide-trending-searches translations"
-excluded-patches = "'Alternative thumbnails' 'Append time stamps information' 'Change homepage' 'Custom branding YouTube name' 'Custom branding icon Revancify blue' 'Enable wide search bar' 'Hide autoplay button' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide comment component' 'Hide description components' 'Hide filmstrip overlay' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide mix playlists' 'Hide previous next button' 'Hide seekbar' 'Hide time stamp' 'Hide toolbar button' 'Hide trending searches' 'Translations'"
+excluded-patches = "alternative-thumbnails append-time-stamps-information change-homepage custom-branding-icon-revancify-blue enable-new-splash-animation enable-new-thumbnail-preview enable-wide-search-bar hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-comment-component hide-description-components hide-feed-flyout-panel hide-filmstrip-overlay hide-handle hide-latest-videos-button hide-load-more-button hide-mix-playlists hide-player-flyout-panel hide-previous-next-button hide-seekbar hide-speed-overlay hide-time-stamp hide-trending-searches translations"
+#excluded-patches = "'Alternative thumbnails' 'Append time stamps information' 'Change homepage' 'Custom branding YouTube name' 'Custom branding icon Revancify blue' 'Enable wide search bar' 'Hide autoplay button' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide comment component' 'Hide description components' 'Hide filmstrip overlay' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide mix playlists' 'Hide previous next button' 'Hide seekbar' 'Hide time stamp' 'Hide toolbar button' 'Hide trending searches' 'Translations'"
 build-mode = "apk"
-version = "18.40.34"
+version = "18.33.40"
 
 
 [Music]
