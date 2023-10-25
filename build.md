@@ -1,5 +1,6 @@
-YouTube: 18.42.36  
 Music: 6.23.55  
+YouTube: 18.42.36  
+Tiktok: 31.9.1  
 
 
 Install [mMicroG](https://github.com/inotia00/mMicroG/releases) (recommended), [Vanced Extended MicroG](https://github.com/inotia00/VancedMicroG/releases) or [Vanced MicroG](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or YT Music  
