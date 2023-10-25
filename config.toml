@@ -7,12 +7,14 @@ build-mindetach-module = false
 # see https://github.com/MatadorProBr/revanced-extended-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-excluded-patches = "alternative-thumbnails append-time-stamps-information change-homepage custom-branding-icon-revancify-blue enable-new-splash-animation enable-new-thumbnail-preview enable-wide-search-bar hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-comment-component hide-description-components hide-feed-flyout-panel hide-filmstrip-overlay hide-handle hide-latest-videos-button hide-load-more-button hide-mix-playlists hide-player-flyout-panel hide-previous-next-button hide-seekbar hide-speed-overlay hide-time-stamp hide-trending-searches translations"
-build-mode = "apk"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 rv-brand = "inotia00 ReVanced"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+excluded-patches = "alternative-thumbnails append-time-stamps-information change-homepage custom-branding-icon-revancify-blue enable-new-splash-animation enable-new-thumbnail-preview enable-wide-search-bar hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-comment-component hide-description-components hide-feed-flyout-panel hide-filmstrip-overlay hide-handle hide-latest-videos-button hide-load-more-button hide-mix-playlists hide-player-flyout-panel hide-previous-next-button hide-seekbar hide-speed-overlay hide-time-stamp hide-trending-searches translations"
+build-mode = "apk"
+version = "18.40.34"
+
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
