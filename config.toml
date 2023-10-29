@@ -15,7 +15,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 #excluded-patches = "'Alternative thumbnails' 'Append time stamps information' 'Change homepage' 'Custom branding YouTube name' 'Custom branding icon Revancify blue' 'Enable wide search bar' 'Hide autoplay button' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide comment component' 'Hide description components' 'Hide filmstrip overlay' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide mix playlists' 'Hide previous next button' 'Hide seekbar' 'Hide time stamp' 'Hide toolbar button' 'Hide trending searches' 'Translations'"
 excluded-patches = "'Alternative thumbnails' 'Append time stamps information' 'Change homepage' 'Custom branding icon Revancify Blue' 'Custom branding name YouTube' 'Custom double tap length' 'Enable compact controls overlay' 'Enable gradient loading screen' 'Enable new splash animation' 'Enable new thumbnail preview' 'Enable wide search bar' 'Hide autoplay button' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide comment component' 'Hide description components' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide mix playlists' 'Hide seekbar' 'Hide time stamp' 'Hide toolbar button' 'Hide trending searches' 'Translations'"
 build-mode = "apk"
-version = "auto"
+version = "18.41.39"
 
 
 
