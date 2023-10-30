@@ -8,33 +8,39 @@ Install [mMicroG](https://github.com/inotia00/mMicroG/releases) (recommended), [
 ---
 Changelog:  
 CLI: inotia00/revanced-cli-4.0.4-all.jar  
-Integrations: inotia00/revanced-integrations-0.120.6.apk  
-Patches: inotia00/revanced-patches-2.195.6.jar  
+Integrations: inotia00/revanced-integrations-0.120.8.apk  
+Patches: inotia00/revanced-patches-2.195.8.jar  
 
 YouTube
 ==
-- fix(YouTube): compile error occurs when both the `Theme` patch and the `MaterialYou` patch are excluded
-- fix(YouTube/Hide seekbar): xml parsing error occurs due to limitations in the patch structure
+- feat(YouTube): add support version `v18.42.41`
+- feat(YouTube): add `Disable speed overlay` patch
+- feat(YouTube/Theme): add set of light themes to choose from in RVX Manager
+- fix(YouTube/Enable open links directly): new types of redirection were not supported
+- fix(YouTube/Hide account menu): unintentional components are hidden https://github.com/inotia00/ReVanced_Extended/issues/1617
+- fix(YouTube/Litho filter): app crashes when buffer array does not exist
+- fix(YouTube/NavBar index): apply alternative fingerprint - supports wider version
+- fix(YouTube/Return YouTube Dislike): now including the `Return YouTube Dislike` patch also includes the `Spoof app version` patch
+- fix(YouTube/Return YouTube Dislike): prevent `RollingNumber` from being applied in YouTube v18.40.34+
 - feat(YouTube/Translations): update translation
-`Italian`, `Korean`, `Turkish`, `Vietnamese`
+`Arabic`, `Brazilian`, `French`, `Greek`, `Indonesian`, `Italian`, `Japanese`, `Korean`, `Polish`, `Russian`, `Spanish`, `Turkish`, `Ukrainian`, `Vietnamese`
 
 
 YouTube Music
 ==
-- fix(YouTube Music/Custom package name): YouTube Music's clone package name in the patch options matches the YouTube's clone package name
+- feat(YouTube Music/Hide flyout panel): add `Hide help & feedback` settings https://github.com/inotia00/ReVanced_Extended/issues/1611
+- fix(YouTube Music/Enable compact dialog): add known issue in settings https://github.com/inotia00/ReVanced_Extended/issues/1621
+- fix(YouTube Music/SponsorBlock): add sb_about string https://github.com/inotia00/ReVanced_Extended/issues/1608
+- feat(YouTube Music/Translations): update translation
+`Brazilian`, `Dutch`, `Greek`, `Indonesian`, `Korean`, `Russian`, `Vietnamese`
 
 
 Etc
 ==
-- This release is a hotfix, so read [revanced-patches-v2.195.4](https://github.com/inotia00/revanced-patches/releases/tag/v2.195.4) release note for the full changelog
-- **RVX Manager users need to update RVX Manager**
-- **Revancify users need to delete Patch Options** - `7 Delete Components` > `3 Patch Options`
-- **rvx-builder users (Android, Termux) just reinstall rvx-builder** - typing `rvxre` in termux
-- **rvx-builder users (Windows, Linux, Mac) should manually delete **`options.json`** file**
 - When updating from YouTube v18.33.40 or lower to YouTube v18.34.xx or later, a clean install is recommended.
 
 
-※ Compatible ReVanced Manager: [RVX Manager v1.14.2 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.14.2)
+※ Compatible ReVanced Manager: [RVX Manager v1.14.3 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.14.3)
 [Crowdin translation]
 - [YouTube/European Countries](https://crowdin.com/project/revancedextendedeu)
 - [YouTube/Other Countries](https://crowdin.com/project/revancedextended)
