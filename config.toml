@@ -1,24 +1,16 @@
 logging-to-file = false        # enables logging of every patch process to a seperate file
-enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/MatadorProBr/revanced-extended-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
-build-mode = "both"
-excluded-patches = "'Custom branding YouTube name' 'Custom branding icon Revancify blue'"
-included-patches = "'Add splash animation' 'MaterialYou'"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-
-[Music]
-build-mode = "both"
-excluded-patches = "'Custom branding Music name' 'Custom branding icon Revancify blue'"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-apkmirror-arch = "both"
-
-[Reddit]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
+[Tiktok]
+apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+patches-source = "revanced/revanced-patche"
+integrations-source = "revanced/revanced-integrations"
+cli-source = "revanced/revanced-cli"
+rv-brand = "revanced ReVanced"
+version = "30.8.4"
+included-patches = "'Remove screen capture restriction' 'Remove screenshot restriction' 'Override certificate pinning' 'Settings' 'Fix Google login' 'Disable login requirement' 'Hide ads' 'Show seekbar' 'Downloads' 'Playback speed' 'Feed filter'"
