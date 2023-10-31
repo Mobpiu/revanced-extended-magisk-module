@@ -8,10 +8,9 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 
 [Tiktok]
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-patches-source = "revanced/revanced-patche"
+patches-source = "revanced/revanced-patches"
 integrations-source = "revanced/revanced-integrations"
 cli-source = "revanced/revanced-cli"
 rv-brand = "revanced ReVanced"
-patches-version = "2.195.0"
 version = "30.8.4"
 included-patches = "'Remove screen capture restriction' 'Remove screenshot restriction' 'Override certificate pinning' 'Settings' 'Fix Google login' 'Disable login requirement' 'Hide ads' 'Show seekbar' 'Downloads' 'Playback speed' 'Feed filter'"
