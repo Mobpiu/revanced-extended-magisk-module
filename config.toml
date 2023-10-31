@@ -29,5 +29,7 @@ rv-brand = "inotia00 ReVanced"
 enabled = false
 
 [TikTok]
+patches-source = "revanced/revanced-patches"
+integrations-source = "revanced/revanced-integrations"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 version = "30.8.4"
