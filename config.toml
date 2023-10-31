@@ -6,30 +6,8 @@ build-mindetach-module = false
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/MatadorProBr/revanced-extended-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
-[YouTube]
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-rv-brand = "inotia00 ReVanced"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-#excluded-patches = "alternative-thumbnails append-time-stamps-information change-homepage custom-branding-icon-revancify-blue enable-new-splash-animation enable-new-thumbnail-preview enable-wide-search-bar hide-autoplay-button hide-captions-button hide-category-bar hide-channel-avatar-section hide-comment-component hide-description-components hide-feed-flyout-panel hide-filmstrip-overlay hide-handle hide-latest-videos-button hide-load-more-button hide-mix-playlists hide-player-flyout-panel hide-previous-next-button hide-seekbar hide-speed-overlay hide-time-stamp hide-trending-searches translations"
-#excluded-patches = "'Alternative thumbnails' 'Append time stamps information' 'Change homepage' 'Custom branding YouTube name' 'Custom branding icon Revancify blue' 'Enable wide search bar' 'Hide autoplay button' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide comment component' 'Hide description components' 'Hide filmstrip overlay' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide mix playlists' 'Hide previous next button' 'Hide seekbar' 'Hide time stamp' 'Hide toolbar button' 'Hide trending searches' 'Translations'"
-excluded-patches = "'Alternative thumbnails' 'Append time stamps information' 'Change homepage' 'Custom branding icon Revancify Blue' 'Custom branding name YouTube' 'Custom double tap length' 'Enable compact controls overlay' 'Enable gradient loading screen' 'Enable new splash animation' 'Enable new thumbnail preview' 'Enable wide search bar' 'Hide autoplay button' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide comment component' 'Hide description components' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide mix playlists' 'Hide seekbar' 'Hide time stamp' 'Hide toolbar button' 'Hide trending searches' 'Translations'"
-build-mode = "apk"
-version = "18.41.39"
-enabled = false
 
-[Music]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-excluded-patches = "custom-branding-icon-revancify-blue hide-flyout-panel hide-handle remember-shuffle-state translations"
-apkmirror-arch = "arm64-v8a"
-build-mode = "apk"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-rv-brand = "inotia00 ReVanced"
-enabled = false
 
 [TikTok]
-patches-source = "revanced/revanced-patches"
-integrations-source = "revanced/revanced-integrations"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 version = "30.8.4"
