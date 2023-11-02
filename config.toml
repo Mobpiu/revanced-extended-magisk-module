@@ -5,12 +5,10 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 # see https://github.com/MatadorProBr/revanced-extended-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
-
-[Tiktok]
-apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-patches-source = "revanced/revanced-patches"
-integrations-source = "revanced/revanced-integrations"
-cli-source = "revanced/revanced-cli"
-rv-brand = "revanced ReVanced"
-# version = "30.8.4"
-included-patches = "'Remove screen capture restriction' 'Remove screenshot restriction' 'Override certificate pinning'"
+[YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "inotia00 ReVanced"
+cli-source = "inotia00/revanced-cli"
+excluded-patches = "'Ambient mode switch' 'Append time stamps information' 'Change homepage' 'Custom branding icon Revancify Blue' 'Custom branding name YouTube' 'Custom double tap length' 'Custom seekbar color' 'Enable gradient loading screen' 'Enable wide search bar' 'Hide autoplay button' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide comment component' 'Hide description components' 'Hide feed flyout panel' 'Hide fullscreen panels' 'Hide latest videos button' 'Hide load more button' 'Hide previous next button' 'Hide seekbar' 'Hide time stamp' 'Hide trending searches' 'Translations'"
