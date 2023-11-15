@@ -19,4 +19,4 @@ enabled = false
 [Tiktok]
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 included-patches = "'Feed filter' 'Hide ads'"
-exclusive-patches = true
+#exclusive-patches = true
