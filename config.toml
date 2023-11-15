@@ -20,6 +20,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 rv-brand = "inotia00 ReVanced"
+apkmirror-arch = "both"
 excluded-patches = "'Custom branding icon Revancify Blue' 'Custom branding name YouTube Music' 'Hide category bar' 'Hide flyout panel' 'Hide handle' 'Remember shuffle state' 'Translations'"
 
 [Tiktok]
