@@ -15,6 +15,13 @@ rv-brand = "inotia00 ReVanced"
 included-patches = "'Enable music search' 'Hide double tap overlay filter' 'Premium heading'"
 excluded-patches = "'Append time stamps information' 'Change homepage' 'Custom branding icon Revancify Blue' 'Custom branding name YouTube' 'Enable gradient loading screen' 'Enable wide search bar' 'Hide autoplay button' 'Hide category bar' 'Hide channel avatar section' 'Hide comment component' 'Hide description components' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide mix playlists' 'Hide previous next button' 'Hide seekbar' 'Hide time stamp' 'Hide toolbar button' 'Hide trending searches' 'Theme' 'Translations'"
 
+[Music]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "inotia00 ReVanced"
+excluded-patches = "'Custom branding icon Revancify Blue' 'Custom branding name YouTube Music' 'Hide category bar' 'Hide flyout panel' 'Hide handle' 'Remember shuffle state' 'Translations'"
+
 [Tiktok]
 cli-source = "revanced/revanced-cli"
 patches-source = "revanced/revanced-patches"
