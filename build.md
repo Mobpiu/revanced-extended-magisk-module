@@ -1,3 +1,5 @@
+Music (arm-v7a): 6.27.53  
+Music (arm64-v8a): 6.27.53  
 YouTube: 18.43.45  
 Tiktok: 30.8.4  
 
