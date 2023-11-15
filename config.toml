@@ -14,3 +14,9 @@ rv-brand = "inotia00 ReVanced"
 #excluded-patches = "'Ambient mode switch' 'Append time stamps information' 'Change homepage' 'Custom branding icon Revancify Blue' 'Custom branding name YouTube' 'Custom double tap length' 'Custom seekbar color' 'Enable gradient loading screen' 'Enable language switch' 'Enable wide search bar' 'Hide autoplay button' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide comment component' 'Hide description components' 'Hide feed flyout panel' 'Hide fullscreen panels' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide mix playlists' 'Hide previous next button' 'Hide seekbar' 'Hide time stamp' 'Hide trending searches' 'Theme' 'Translations'"
 included-patches = "'Enable music search' 'Hide double tap overlay filter' 'Premium heading'"
 excluded-patches = "'Append time stamps information' 'Change homepage' 'Custom branding icon Revancify Blue' 'Custom branding name YouTube' 'Enable gradient loading screen' 'Enable wide search bar' 'Hide autoplay button' 'Hide category bar' 'Hide channel avatar section' 'Hide comment component' 'Hide description components' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide mix playlists' 'Hide previous next button' 'Hide seekbar' 'Hide time stamp' 'Hide toolbar button' 'Hide trending searches' 'Theme' 'Translations'"
+enabled = false
+
+[Tiktok]
+apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+included-patches = "'Feed filter' 'Hide ads'"
+exclusive-patches = true
