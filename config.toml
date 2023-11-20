@@ -28,6 +28,6 @@ cli-source = "revanced/revanced-cli"
 patches-source = "revanced/revanced-patches"
 integrations-source = "revanced/revanced-integrations"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-version = "33.2.3"
+version = "32.2.3"
 #included-patches = "'Override certificate pinning' 'Spoof Wi-Fi connection'"
 #exclusive-patches = true
