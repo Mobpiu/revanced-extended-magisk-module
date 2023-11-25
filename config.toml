@@ -31,6 +31,6 @@ integrations-source = "revanced/revanced-integrations"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok"
 included-patches = "'SIM spoof'"
 #excluded-patches = "'Hide ads' 'Settings' 'Downloads'"
-version = "32.2.3"
+version = "32.2.4"
 #included-patches = "'Override certificate pinning' 'Spoof Wi-Fi connection'"
 #exclusive-patches = true
