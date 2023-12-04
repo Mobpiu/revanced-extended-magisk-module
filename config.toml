@@ -1,24 +1,37 @@
-logging-to-file = true        # enables logging of every patch process to a seperate file
-enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
+logging-to-file = false        # enables logging of every patch process to a seperate file
+enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/MatadorProBr/revanced-extended-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
-
 [YouTube]
-build-mode = "both"
-excluded-patches = "'Custom branding icon Revancify Blue' 'Custom branding name YouTube'"
-included-patches = "'Add splash animation' 'MaterialYou'"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "inotia00 ReVanced"
+#included-patches = "'Hide double tap overlay filter' 'Enable music search'"
+#excluded-patches = "'Ambient mode switch' 'Append time stamps information' 'Change homepage' 'Custom branding icon Revancify Blue' 'Custom branding name YouTube' 'Custom double tap length' 'Custom seekbar color' 'Enable gradient loading screen' 'Enable language switch' 'Enable wide search bar' 'Hide autoplay button' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide comment component' 'Hide description components' 'Hide feed flyout panel' 'Hide fullscreen panels' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide mix playlists' 'Hide previous next button' 'Hide seekbar' 'Hide time stamp' 'Hide trending searches' 'Theme' 'Translations'"
+included-patches = "'Enable music search' 'Hide double tap overlay filter' 'Premium heading'"
+excluded-patches = "'Append time stamps information' 'Change homepage' 'Custom branding icon Revancify Blue' 'Custom branding name YouTube' 'Enable gradient loading screen' 'Enable wide search bar' 'Hide autoplay button' 'Hide category bar' 'Hide channel avatar section' 'Hide comment component' 'Hide description components' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide mix playlists' 'Hide previous next button' 'Hide seekbar' 'Hide time stamp' 'Hide toolbar button' 'Hide trending searches' 'Theme' 'Translations'"
 
 [Music]
-build-mode = "both"
-excluded-patches = "'Custom branding icon Revancify Blue' 'Custom branding name YouTube Music'"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "inotia00 ReVanced"
 apkmirror-arch = "both"
+excluded-patches = "'Custom branding icon Revancify Blue' 'Custom branding name YouTube Music' 'Hide category bar' 'Hide flyout panel' 'Hide handle' 'Remember shuffle state' 'Translations'"
 
-[Reddit]
+[Tiktok]
+cli-source = "revanced/revanced-cli"
+patches-source = "revanced/revanced-patches"
+integrations-source = "revanced/revanced-integrations"
+#apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok"
+included-patches = "'SIM spoof'"
+#excluded-patches = "'Hide ads' 'Settings' 'Downloads'"
+version = "32.2.4"
+#included-patches = "'Override certificate pinning' 'Spoof Wi-Fi connection'"
+#exclusive-patches = true
 enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
