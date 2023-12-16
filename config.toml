@@ -12,6 +12,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 rv-brand = "inotia00 ReVanced"
+apkmirror-arch = "both"
 excluded-patches = "'Hide category bar' 'Hide handle' 'Hide history button' 'Hook download button' 'Remember shuffle state' 'Translations'"
 
 [YouTube]
