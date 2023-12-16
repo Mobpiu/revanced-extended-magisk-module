@@ -1,29 +1,9 @@
-[
-  {
-    "patchName": "Custom package name",
-    "options": [
-      {
-        "key": "PackageNameYouTube",
-        "value": "sakizu.youtube"
-      },
-      {
-        "key": "PackageNameYouTubeMusic",
-        "value": "sakizu.music"
-      }
-    ]
-  },
-  {
-    "patchName": "Custom package name",
-    "options": [
-      {
-        "key": "PackageNameYouTube",
-        "value": "sakizu.youtube"
-      },
-      {
-        "key": "PackageNameYouTubeMusic",
-        "value": "sakizu.music"
-      }
-    ]
-  }
-]
-        
+[ {
+    "patchName" : "Custom package name",
+    "options" : [ {
+      "key" : "PackageNameYouTube",
+      "value" : "id.sakizu.youtube"
+    }, {
+      "key" : "PackageNameYouTubeMusic",
+      "value" : "id.sakizu.music"
+    } ]
