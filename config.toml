@@ -5,6 +5,21 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 # see https://github.com/MatadorProBr/revanced-extended-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config.
+[Music]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "inotia00 ReVanced"
+excluded-patches = "'Hide category bar' 'Hide handle' 'Hide history button' 'Hook download button' 'Remember shuffle state' 'Translations'"
+
+[YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "inotia00 ReVanced"
+included-patches = "'Hide player button background' 'Hide voice search button' 'Premium heading'"
+excluded-patches = "'Append time stamps information' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom double tap length' 'Custom package name' 'Custom seekbar color' 'Enable gradient loading screen' 'Enable language switch' 'Enable new splash animation' 'Enable wide search bar' 'Hide captions button' 'Hide category bar' 'Hide channel avatar section' 'Hide comment component' 'Hide description components' 'Hide fullscreen panels' 'Hide handle' 'Hide latest videos button' 'Hide load more button' 'Hide mix playlists' 'Hide previous next button' 'Hide search term thumbnail' 'Hide seekbar' 'Hide time stamp' 'Hide trending searches' 'Theme' 'Translations'"
+
 
 [Tiktok]
 patches-source = "revanced/revanced-patches"
@@ -12,3 +27,4 @@ integrations-source = "revanced/revanced-integrations"
 cli-source = "revanced/revanced-cli"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok/"
 #included-patches = "'SIM spoof'"
+enabled = false
